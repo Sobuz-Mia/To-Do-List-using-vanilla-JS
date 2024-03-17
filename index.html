@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h2>Create to do list</h2>
+      <div class="input-container">
+        <P class="input-field" contenteditable="true" id="taskInput" data-placeholder="Write a task description....."></P>
+        <input type="file" id="imageInput" accept="image/*" style="display: none;">
+            <button class="btn" onclick="addTask()">Create +</button>
+            <button class="btn" onclick="openImageUploader()">Add Image</button>
+      </div>
+      <div>
+
+      </div>
+      <div id="taskList" class="task-list"></div>
+    </div>
+    <script src="script .js"></script>
+  </body>
+</html>
